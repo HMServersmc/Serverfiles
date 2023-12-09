@@ -1,0 +1,416 @@
+{
+  "gearRecipes": [
+    {
+      "proficiencyType": "HELMET",
+      "id": "the_vault:helmet",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:helmet",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "CHESTPLATE",
+      "id": "the_vault:chestplate",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:chestplate",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "LEGGINGS",
+      "id": "the_vault:leggings",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:leggings",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "BOOTS",
+      "id": "the_vault:boots",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:boots",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "AXE",
+      "id": "the_vault:axe",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:axe",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "SWORD",
+      "id": "the_vault:sword",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:sword",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "SHIELD",
+      "id": "the_vault:shield",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:shield",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "IDOL",
+      "id": "the_vault:idol_benevolent",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:idol_benevolent",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:god_blessing",
+          "NBT": "{type:\"velara\"}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "IDOL",
+      "id": "the_vault:idol_omniscient",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:idol_omniscient",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:god_blessing",
+          "NBT": "{type:\"tenos\"}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "IDOL",
+      "id": "the_vault:idol_timekeeper",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:idol_timekeeper",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:god_blessing",
+          "NBT": "{type:\"wendarr\"}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "IDOL",
+      "id": "the_vault:idol_malevolence",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:idol_malevolence",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:god_blessing",
+          "NBT": "{type:\"idona\"}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "MAGNET",
+      "id": "the_vault:magnet",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:magnet",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:magnetite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        }
+      ]
+    }
+  ]
+}

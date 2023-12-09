@@ -1,0 +1,23 @@
+[
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/skeleton_large",
+      "palettes": [ "the_vault:generic/spawners/skeleton_dungeon", "the_vault:dungeon_rooms/dungeon_discoverable_large" ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/skeleton_medium",
+      "palettes": [ "the_vault:generic/spawners/skeleton_dungeon", "the_vault:dungeon_rooms/dungeon_discoverable_medium" ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/skeleton_small",
+      "palettes": [ "the_vault:generic/spawners/skeleton_dungeon", "the_vault:dungeon_rooms/dungeon_discoverable_small" ]
+    }
+  }
+]

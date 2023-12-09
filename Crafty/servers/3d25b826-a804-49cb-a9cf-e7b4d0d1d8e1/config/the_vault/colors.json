@@ -1,0 +1,63 @@
+{
+  "COMMENTS": [
+    "// - builtin values may be edited, but not removed",
+    "// - add / remove custom values inside the custom object",
+    "// - custom values override builtin values"
+  ],
+  "colors": {
+    "builtin": {
+      "absorb": "#8EEDD9",
+      "blocks": "#945D38",
+      "chains": "#cc3639",
+      "chance": "#ffeb07",
+      "cooldown": "#cbe6fe",
+      "damage": "#C23627",
+      "damageInterval": "#A86225",
+      "damageReduction": "#C23627",
+      "delay": "#8C4916",
+      "distance": "#F2E685",
+      "duration": "#7024ac",
+      "eternals": "#C7FFE7",
+      "force": "#5ae09c",
+      "fortune": "#8bd0c9",
+      "freezeDuration": "#0000FF",
+      "heal": "#7DF587",
+      "knockback": "#FFB00F",
+      "leech": "#cf0000",
+      "levelHi": "#00FF00",
+      "levelLo": "#C23627",
+      "manaCost": "#0353d7",
+      "manaPerDamage": "#0353d7",
+      "maxTargets": "#cd009b",
+      "name": "#FCF5C5",
+      "projectileDamageTaken": "#CFB174",
+      "radius": "#33ff6d",
+      "range": "#0D7A39",
+      "resistance": "#09bfb8",
+      "slowness": "#23d2bb",
+      "text": "#192022",
+      "unbreaking": "#dcc4f0"
+    },
+    "custom": {
+      "castType": "#1e1e1e",
+      "poison": "#6fe95a",
+      "baby": "#f5b2f9",
+      "weakness": "#afb477",
+      "shocking": "#fffb81",
+      "stun": "#19A6E4", 
+      "level": "#c1579d",
+      "luckyHit": "#6DF5A3",
+      "piercing": "#4020b8",
+      "numberOfJavelins": "#deb308",
+      "numberOfBounces": "#085ede",
+      "speed": "#f6cd0e",
+      "durabilityWearReduction": "#dbb0dc",
+      "additionalManaPerBolt": "#0353d7",
+      "soulchance": "#4800FF",
+      "miningspeed": "#47b8f5",
+      "quillCount": "#cc3639",
+      "ethereal": "#1bde8e",
+      "affinity": "#b2f44b"
+    }
+  }
+}

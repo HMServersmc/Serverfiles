@@ -1,0 +1,26 @@
+{
+    "allow_nsfw_profile_pictures": false,
+    "cookie_expire": 30,
+    "crafty_logs_delete_after_days": 0,
+    "delete_default_json": false,
+    "dir_size_poll_freq_minutes": 5,
+    "disabled_language_files": [],
+    "enable_user_self_delete": false,
+    "history_max_age": 7,
+    "http_port": 8000,
+    "https_port": 8443,
+    "keywords": [
+        "help",
+        "chunk"
+    ],
+    "language": "en_EN",
+    "max_audit_entries": 300,
+    "max_log_lines": 700,
+    "monitored_mounts": "C:\\",
+    "reset_secrets_on_next_boot": false,
+    "show_contribute_link": true,
+    "show_errors": true,
+    "stats_update_frequency_seconds": 30,
+    "stream_size_GB": 1,
+    "virtual_terminal_lines": 70
+}

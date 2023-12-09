@@ -1,0 +1,30 @@
+[
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/spider_large3",
+      "palettes": [ "the_vault:generic/spawners/spider_dungeon", "the_vault:dungeon_rooms/dungeon_discoverable_large" ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/spider_large2",
+      "palettes": [ "the_vault:generic/spawners/spider_dungeon", "the_vault:dungeon_rooms/dungeon_discoverable_large" ]
+    }
+  },
+  {
+    "weight": 2,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/spider_medium",
+      "palettes": [ "the_vault:generic/spawners/spider_dungeon", "the_vault:dungeon_rooms/dungeon_discoverable_medium" ]
+    }
+  },
+  {
+    "weight": 2,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/spider_small",
+      "palettes": [ "the_vault:generic/spawners/spider_dungeon", "the_vault:dungeon_rooms/dungeon_discoverable_small" ]
+    }
+  }
+]

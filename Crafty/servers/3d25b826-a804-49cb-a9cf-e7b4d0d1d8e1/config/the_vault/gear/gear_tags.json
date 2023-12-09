@@ -1,0 +1,377 @@
+{
+  "tags": {
+    "Defensive": {
+      "tags": [
+        "ModArmor",
+        "ModKnockbackResistance",
+        "ModCritHitMitigation",
+        "focusArmor"
+      ],
+      "display": "Defensive",
+      "color": 7973817,
+      "weight": 0
+    },
+    "ResDmg": {
+      "tags": [
+        "focusResistance",
+        "focusDamage"
+      ],
+      "display": "Resistance/Damage",
+      "color": 16760832,
+      "weight": 0
+    },
+    "Mana": {
+      "tags": [
+        "ModMana",
+        "ModManaRegen"
+      ],
+      "display": "Mana",
+      "color": 65535,
+      "weight": 0
+    },
+    "Thorns": {
+      "tags": [
+        "focusThornsChance",
+        "focusThornsDamage"
+      ],
+      "display": "Thorns",
+      "color": 16747256,
+      "weight": 0
+    },
+    "Looting": {
+      "tags": [
+        "ModItemRarity",
+        "ModItemQuantity"
+      ],
+      "display": "Looting",
+      "color": 15639054,
+      "weight": 0
+    },
+    "Offensive": {
+      "tags": [
+        "ModOnHitAddition",
+        "ModAttackDamage",
+        "ModFatalStrikeDamage",
+        "ModDamageIncrease",
+        "ModTypedDamageIncrease",
+        "ModFatalStrikeChance",
+        "ModAttackSpeedPercent"
+      ],
+      "display": "Offensive",
+      "color": 12782347,
+      "weight": 0
+    },
+    "OnHit": {
+      "tags": [
+        "ModOnHitAddition"
+      ],
+      "display": "On Hit Type",
+      "color": 16740864,
+      "weight": 0
+    },
+    "Resistance": {
+      "tags": [
+        "focusResistance"
+      ],
+      "display": "Resistance",
+      "color": 16760832,
+      "weight": 10
+    },
+    "Lucky Hit": {
+      "tags": [
+        "focusLuckyHitChance"
+      ],
+      "display": "Lucky Hit",
+      "color": 7206307,
+      "weight": 10
+    },
+    "Slowness Cloud": {
+      "tags": [
+        "focusSlownessCloud"
+      ],
+      "display": "Slowness Cloud",
+      "color": 7400423,
+      "weight": 10
+    },
+    "Poison Cloud": {
+      "tags": [
+        "focusPoisonCloud"
+      ],
+      "display": "Poison Cloud",
+      "color": 4236591,
+      "weight": 10
+    },
+    "Healing Cloud": {
+      "tags": [
+        "focusHealingCloud"
+      ],
+      "display": "Healing Cloud",
+      "color": 16150747,
+      "weight": 10
+    },
+    "Fear Cloud": {
+      "tags": [
+        "focusFearCloud"
+      ],
+      "display": "Fear Cloud",
+      "color": 2818160,
+      "weight": 10
+    },
+    "Health": {
+      "tags": [
+        "focusHealth"
+      ],
+      "display": "Health",
+      "color": 2293541,
+      "weight": 10
+    },
+    "HealingEff": {
+      "tags": [
+        "focusHealingEff"
+      ],
+      "display": "Healing Efficiency",
+      "color": 9371426,
+      "weight": 10
+    },
+    "Armor": {
+      "tags": [
+        "focusArmor"
+      ],
+      "display": "Armor",
+      "color": 4766456,
+      "weight": 10
+    },
+    "ManaRegen": {
+      "tags": [
+        "focusManaRegen"
+      ],
+      "display": "Mana Regeneration",
+      "color": 65535,
+      "weight": 10
+    },
+    "Trap Disarming": {
+      "tags": [
+        "focusTrapDisarming"
+      ],
+      "display": "Trap Disarming",
+      "color": 8471551,
+      "weight": 10
+    },
+    "Cooldown": {
+      "tags": [
+        "focusCooldown"
+      ],
+      "display": "Cooldown",
+      "color": 63668,
+      "weight": 10
+    },
+    "Durability": {
+      "tags": [
+        "focusDurability"
+      ],
+      "display": "Durability",
+      "color": 14668030,
+      "weight": 10
+    },
+    "Damage": {
+      "tags": [
+        "focusDamage"
+      ],
+      "display": "Damage Percentile",
+      "color": 16739072,
+      "weight": 10
+    },
+    "Soul Hunting": {
+      "tags": [
+        "focusSoulChance"
+      ],
+      "display": "Soul Chance",
+      "color": 4653308,
+      "weight": 10
+    },
+    "Chaining": {
+      "tags": [
+        "focusChaining"
+      ],
+      "display": "Chaining",
+      "color": 6119096,
+      "weight": 10
+    },
+    "ManaAdditive": {
+      "tags": [
+        "focusManaAdd"
+      ],
+      "display": "Max Mana",
+      "color": 65535,
+      "weight": 10
+    },
+    "ManaPercentile": {
+      "tags": [
+        "focusManaPercentile"
+      ],
+      "display": "Max Mana Percentile",
+      "color": 65535,
+      "weight": 10
+    },
+    "Soulbound": {
+      "tags": [
+        "focusSoulbound"
+      ],
+      "display": "Soulbound",
+      "color": 9856253,
+      "weight": 10
+    },
+    "MiningSpeed": {
+      "tags": [
+        "focusMiningSpeed"
+      ],
+      "display": "Mining Speed",
+      "color": 4766456,
+      "weight": 10
+    },
+    "Copiously": {
+      "tags": [
+        "focusCopiously"
+      ],
+      "display": "Copiously",
+      "color": 16205696,
+      "weight": 10
+    },
+    "MagnetRange": {
+      "tags": [
+        "focusMagnetRange"
+      ],
+      "display": "Range",
+      "color": 16364415,
+      "weight": 10
+    },
+    "MagnetVelocity": {
+      "tags": [
+        "focusMagnetVelocity"
+      ],
+      "display": "Velocity",
+      "color": 14608287,
+      "weight": 10
+    },
+    "AttackDamage": {
+      "tags": [
+        "focusAttackDamage"
+      ],
+      "display": "Attack Damage",
+      "color": 13116966,
+      "weight": 10
+    },
+    "Stunning": {
+      "tags": [
+        "focusStun"
+      ],
+      "display": "Stunning",
+      "color": 1681124,
+      "weight": 10
+    },
+    "Shocking": {
+      "tags": [
+        "focusShocking"
+      ],
+      "display": "Shocking",
+      "color": 1681124,
+      "weight": 10
+    },
+    "CritHitMitigation": {
+      "tags": [
+        "focusCritHitMitigation"
+      ],
+      "display": "Crit Hit Mitigation",
+      "color": 7441919,
+      "weight": 10
+    },
+    "Block": {
+      "tags": [
+        "focusBlock"
+      ],
+      "display": "Block Chance",
+      "color": 16109454,
+      "weight": 10
+    },
+    "ThornsChance": {
+      "tags": [
+        "focusThornsChance"
+      ],
+      "display": "Thorns Chance",
+      "color": 16761035,
+      "weight": 10
+    },
+    "ThornsDamage": {
+      "tags": [
+        "focusThornsDamage"
+      ],
+      "display": "Thorns Damage",
+      "color": 15507136,
+      "weight": 10
+    },
+    "Sweeping": {
+      "tags": [
+        "focusSweeping"
+      ],
+      "display": "Sweeping Chance",
+      "color": 14727777,
+      "weight": 10
+    },
+    "DamageIllagers": {
+      "tags": [
+        "focusDamageIllager"
+      ],
+      "display": "Illager Damage",
+      "color": 40882,
+      "weight": 10
+    },
+    "DamageSpiders": {
+      "tags": [
+        "focusDamageSpiders"
+      ],
+      "display": "Arthropod Damage",
+      "color": 8281694,
+      "weight": 10
+    },
+    "DamageUndead": {
+      "tags": [
+        "focusDamageUndead"
+      ],
+      "display": "Undead Damage",
+      "color": 16382128,
+      "weight": 10
+    },
+    "ItemQuantity": {
+      "tags": [
+        "focusItemQuantity"
+      ],
+      "display": "Item Quantity",
+      "color": 15239698,
+      "weight": 10
+    },
+    "ItemRarity": {
+      "tags": [
+        "focusItemRarity"
+      ],
+      "display": "Item Rarity",
+      "color": 15054873,
+      "weight": 10
+    },
+    "Immunity": {
+      "tags": [
+        "focusImmunity"
+      ],
+      "display": "Immunity",
+      "color": 15589836,
+      "weight": 10
+    },
+    "Reach": {
+      "tags": [
+        "focusReach"
+      ],
+      "display": "Reach",
+      "color": 8706047,
+      "weight": 5
+    }
+  }
+}

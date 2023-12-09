@@ -1,0 +1,158 @@
+---- Minecraft Crash Report ----
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]
+
+Time: 2022-09-20 20:24:32
+Description: Exception in server tick loop
+
+java.util.concurrent.CompletionException: java.net.BindException: Can't assign requested address
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$BiRelay.tryFire(CompletableFuture.java:1498)
+	at java.base/java.util.concurrent.CompletableFuture$CoCompletion.tryFire(CompletableFuture.java:1219)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at com.nukkitx.network.util.Bootstraps.lambda$allOf$0(Bootstraps.java:111)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:1017)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:564)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.BindException: Can't assign requested address
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.DatagramChannelImpl.bindInternal(DatagramChannelImpl.java:1194)
+	at java.base/sun.nio.ch.DatagramChannelImpl.bind(DatagramChannelImpl.java:1164)
+	at io.netty.util.internal.SocketUtils$6.run(SocketUtils.java:133)
+	at io.netty.util.internal.SocketUtils$6.run(SocketUtils.java:130)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at io.netty.util.internal.SocketUtils.bind(SocketUtils.java:130)
+	at io.netty.channel.socket.nio.NioDatagramChannel.doBind0(NioDatagramChannel.java:201)
+	at io.netty.channel.socket.nio.NioDatagramChannel.doBind(NioDatagramChannel.java:196)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	... 12 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Mac OS X (aarch64) version 13.0
+	Java Version: 18.0.1, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 2483567736 bytes (2368 MiB) / 3030384640 bytes (2890 MiB) up to 3221225472 bytes (3072 MiB)
+	CPUs: 8
+	Processor Vendor: Apple Inc.
+	Processor Name: Apple M1
+	Identifier: Apple Inc. Family 0x1b588bb3 Model 0 Stepping 0
+	Microarchitecture: ARM64 SoC: Firestorm + Icestorm
+	Frequency (GHz): 24.00
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 8
+	Graphics card #0 name: Apple M1
+	Graphics card #0 vendor: Apple (0x106b)
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 0.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: unknown
+	Virtual memory max (MB): 25600.00
+	Virtual memory used (MB): 21880.50
+	Swap memory total (MB): 9216.00
+	Swap memory used (MB): 8243.19
+	JVM Flags: 2 total; -Xms2G -Xmx3G
+	Fabric Mods: 
+		carpet: Carpet Mod 1.4.83
+		carpet-fixes: Carpet Fixes 1.19-1.11.2
+			com_github_llamalad7_mixinextras: MixinExtras 0.0.6
+			conditional-mixin: conditional mixin 0.3.0
+		fabric-api: Fabric API 0.60.0+1.19.2
+			fabric-api-base: Fabric API Base 0.4.11+e62f51a390
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.9+9ff28f4090
+			fabric-biome-api-v1: Fabric Biome API (v1) 9.0.17+aeb40ebe90
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.11+f71b366f90
+			fabric-command-api-v2: Fabric Command API (v2) 2.1.7+0c17ea9690
+			fabric-commands-v0: Fabric Commands (v0) 0.2.28+df3654b390
+			fabric-containers-v0: Fabric Containers (v0) 0.1.34+df3654b390
+			fabric-content-registries-v0: Fabric Content Registries (v0) 3.2.3+aeb40ebe90
+			fabric-convention-tags-v1: Fabric Convention Tags 1.1.1+7cd20a1490
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.5+aeb40ebe90
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 5.1.8+a680b9b490
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.30+aeb40ebe90
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.4.18+9ff28f4090
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.28+aeb40ebe90
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.28+df3654b390
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.21+aeb40ebe90
+			fabric-item-api-v1: Fabric Item API (v1) 1.5.7+35a03c4390
+			fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.28+aeb40ebe90
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.1.2+aeb40ebe90
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.3+83a8659290
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.6+9e7660c690
+			fabric-message-api-v1: Fabric Message API (v1) 5.0.3+176380a290
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.14+33fbc73890
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.2.4+5eb68ef290
+			fabric-networking-v0: Fabric Networking (v0) 0.3.21+df3654b390
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 4.0.11+aeb40ebe90
+			fabric-particles-v1: Fabric Particles (v1) 1.0.10+aeb40ebe90
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.24+aeb40ebe90
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.14+aeb40ebe90
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.7+aeb40ebe90
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.0.11+e62f51a390
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.6.1+aeb40ebe90
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.2.13+9ff28f4090
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 2.0.11+83a8659290
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.3.0+42d99c3290
+		fabricloader: Fabric Loader 0.14.9
+		floodgate: Floodgate-Fabric 2.2.0-SNAPSHOT
+			adventure-platform-fabric: adventure-platform-fabric 5.4.0-SNAPSHOT
+				net_kyori_adventure-api: adventure-api 4.11.0
+				net_kyori_adventure-key: adventure-key 4.11.0
+				net_kyori_adventure-platform-api: adventure-platform-api 4.1.0
+				net_kyori_adventure-text-logger-slf4j: adventure-text-logger-slf4j 4.11.0
+				net_kyori_adventure-text-minimessage: adventure-text-minimessage 4.11.0
+				net_kyori_adventure-text-serializer-gson: adventure-text-serializer-gson 4.11.0
+				net_kyori_adventure-text-serializer-plain: adventure-text-serializer-plain 4.11.0
+				net_kyori_examination-api: examination-api 1.3.0
+				net_kyori_examination-string: examination-string 1.3.0
+			cloud: Cloud 1.7.0-SNAPSHOT
+				cloud_commandframework_cloud-brigadier_: cloud-brigadier 1.7.0-SNAPSHOT
+				cloud_commandframework_cloud-core_: cloud-core 1.7.0-SNAPSHOT
+				cloud_commandframework_cloud-services_: cloud-services 1.7.0-SNAPSHOT
+				fabric-permissions-api-v0: fabric-permissions-api 0.1-SNAPSHOT
+				io_leangen_geantyref_geantyref: geantyref 1.3.13
+		geyser-fabric: Geyser-Fabric 2.0.7-SNAPSHOT
+		instantgroup: Instant Group 1.19.2-1.0.0
+		java: OpenJDK 64-Bit Server VM 18
+		lithium: Lithium 0.8.3
+		minecraft: Minecraft 1.19.2
+		nochatreports: No Chat Reports 1.19.2-v1.11.2
+		starlight: Starlight 1.1.1+fabric.ae22326
+		status: Status 1.19.2-1.0.0
+		trade_cycling: Trade Cycling 1.19.2-1.0.5
+		viewdistancefix: View Distance Fix 1.19.2-1.0.0
+		voicechat: Simple Voice Chat 1.19.2-2.3.9
+	Server Running: true
+	Player Count: 0 / 20; []
+	Data Packs: vanilla, file/bukkit (incompatible), Fabric Mods
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)

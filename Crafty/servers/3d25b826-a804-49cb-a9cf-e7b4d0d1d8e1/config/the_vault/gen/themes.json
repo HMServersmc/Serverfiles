@@ -1,0 +1,259 @@
+{
+  "keys": [
+    {
+      "id": "the_vault:classic_vault_plastic",
+      "name": "Plastic",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_plastic.json"
+    },
+    {
+      "id": "the_vault:classic_vault_ice",
+      "name": "Ice",
+      "color": 5364991,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_ice.json"
+    },
+    {
+      "id": "the_vault:classic_vault_ice_cave",
+      "name": "Ice Cave",
+      "color": 5364991,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_ice_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave",
+      "name": "Cave",
+      "color": 9932424,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_lush_cave",
+      "name": "Lush Cave",
+      "color": 4427270,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_lush_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_living_cave",
+      "name": "Honey Cave",
+      "color": 16111110,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_living_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_crimson",
+      "name": "Crimson Nether",
+      "color": 16719128,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_crimson.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_warped",
+      "name": "Warped Nether",
+      "color": 6602192,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_warped.json"
+    },
+    {
+      "id": "the_vault:classic_vault_desert",
+      "name": "Desert",
+      "color": 15852472,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_desert.json"
+    },
+    {
+      "id": "the_vault:classic_vault_sandy_cave",
+      "name": "Sandy Cave",
+      "color": 15852472,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_sandy_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_beach",
+      "name": "Oasis",
+      "color": 14873528,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_beach.json"
+    },
+    {
+      "id": "the_vault:classic_vault_mesa",
+      "name": "Mesa",
+      "color": 14840320,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_mesa.json"
+    },
+    {
+      "id": "the_vault:classic_vault_deep_mesa",
+      "name": "Deep Mesa",
+      "color": 14840320,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_deep_mesa.json"
+    },
+    {
+      "id": "the_vault:classic_vault_void",
+      "name": "Void",
+      "color": 1313588,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_void.json"
+    },
+    {
+      "id": "the_vault:classic_vault_factory_void",
+      "name": "Factory Void",
+      "color": 8057652,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_factory_void.json"
+    },
+    {
+      "id": "the_vault:diy_vault_lush_cave",
+      "name": "DIY Lush Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_lush_cave.json"
+    },
+    {
+      "id": "the_vault:diy_vault_cave",
+      "name": "DIY Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_cave.json"
+    },
+    {
+      "id": "the_vault:diy_vault_desert",
+      "name": "DIY Desert",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_desert.json"
+    },
+    {
+      "id": "the_vault:diy_vault_ice",
+      "name": "DIY Ice",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_ice.json"
+    },
+    {
+      "id": "the_vault:diy_vault_mesa",
+      "name": "DIY Mesa",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_mesa.json"
+    },
+    {
+      "id": "the_vault:diy_vault_nether_crimson",
+      "name": "DIY Nether Crimson",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_nether_crimson.json"
+    },
+    {
+      "id": "the_vault:diy_vault_nether_warped",
+      "name": "DIY Nether Warped",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_nether_warped.json"
+    },
+    {
+      "id": "the_vault:diy_vault_void",
+      "name": "DIY Void",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_void.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave_deepslate",
+      "name": "Deepslate Caves",
+      "color": 594432,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave_deepslate.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave_geode",
+      "name": "Geode Caves",
+      "color": 6231630,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave_geode.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave_wasteland",
+      "name": "Wasteland Caves",
+      "color": 7488811,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave_wasteland.json"
+    },
+    {
+      "id": "the_vault:classic_vault_end_void",
+      "name": "End Void",
+      "color": 5769258,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_end_void.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_blackstone",
+      "name": "Dark Nether",
+      "color": 8587306,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_blackstone.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_soul",
+      "name": "Soul Nether",
+      "color": 3417881,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_soul.json"
+    },
+    {
+      "id": "the_vault:classic_vault_sweet",
+      "name": "Sweet Domains",
+      "color": 16273280,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_sweet.json"
+    },
+    {
+      "id": "the_vault:classic_vault_festive",
+      "name": "Festive",
+      "color": 16711808,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_festive.json"
+    },
+    {
+      "id": "the_vault:classic_vault_gingerbread",
+      "name": "Gingerbread",
+      "color": 8800023,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_gingerbread.json"
+    },
+    {
+      "id": "the_vault:classic_vault_mushroom",
+      "name": "Mushroom",
+      "color": 10027008,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_mushroom.json"
+    },
+    {
+      "id": "the_vault:classic_vault_flooded",
+      "name": "Flooded",
+      "color": 7775663,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_flooded.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave",
+      "name": "Raw Vault Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_lvl10",
+      "name": "Raw Vault Cave LVL 10",
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_lvl10.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_lvl20",
+      "name": "Raw Vault Cave LVL 20",
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_lvl20.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_lvl30",
+      "name": "Raw Vault Cave LVL 30",
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_lvl30.json"
+    },
+    {
+      "id": "the_vault:diy_vault_blank",
+      "name": "Architect",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_blank.json"
+    },
+    {
+      "id": "the_vault:classic_vault_easter_egg",
+      "name": "Easter Egg",
+      "color": 16777100,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_easter_egg.json"
+    },
+    {
+      "id": "the_vault:classic_vault_easter_pastel",
+      "name": "Easter Pastel",
+      "color": 16766676,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_easter_pastel.json"
+    },
+    {
+      "id": "the_vault:classic_vault_white",
+      "name": "Iskall's Favorite",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_white.json"
+    },
+    {
+      "id": "the_vault:classic_vault_shipwreck",
+      "name": "Shipwreck",
+      "color": 13623024,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_shipwreck.json"
+    },
+    {
+      "id": "the_vault:classic_vault_haunted",
+      "name": "Haunted",
+      "color": 5086371,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_haunted.json"
+    },
+    {
+      "id": "the_vault:classic_vault_sea_floor",
+      "name": "Sea Floor",
+      "color": 6353107,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_sea_floor.json"
+    }
+  ]
+}

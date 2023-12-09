@@ -1,0 +1,83 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "GILDED_CHEST",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl0_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 11,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl11_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 24,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl24_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 35,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl35_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 50,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl35_v2\"}": 19,
+            "the_vault:gilded_strongbox{LootTable:\"the_vault:gilded_strongbox_lvl50_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 80,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl35_v2\"}": 11,
+            "the_vault:gilded_strongbox{LootTable:\"the_vault:gilded_strongbox_lvl50_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 100,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl35_v2\"}": 7,
+            "the_vault:gilded_strongbox{LootTable:\"the_vault:gilded_strongbox_lvl50_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

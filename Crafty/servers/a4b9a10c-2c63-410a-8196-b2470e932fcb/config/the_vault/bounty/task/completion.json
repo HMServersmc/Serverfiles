@@ -1,0 +1,272 @@
+{
+  "LEVELS": {
+    "0": {
+      "pool": [
+        {
+          "value": {
+            "value": "vault",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 10
+        }
+      ]
+    },
+    "10": {
+      "pool": [
+        {
+          "value": {
+            "value": "vault",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "monolith",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "value": "elixir",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 10
+        }
+      ]
+    },
+    "20": {
+      "pool": [
+        {
+          "value": {
+            "value": "vault",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "value": "monolith",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "value": "elixir",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "value": "scavenger",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "value": "scavenger",
+            "amount": {
+              "min": 2,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "rare"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "50": {
+      "pool": [
+        {
+          "value": {
+            "value": "vault",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "value": "cake",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "value": "cake",
+            "amount": {
+              "min": 2,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "rare"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "scavenger",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "value": "scavenger",
+            "amount": {
+              "min": 2,
+              "max": 3
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "rare"
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "value": "monolith",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "value": "elixir",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "value": "boss",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "common"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "value": "boss",
+            "amount": {
+              "min": 2,
+              "max": 3
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "rare"
+          },
+          "weight": 2
+        }
+      ]
+    }
+  }
+}

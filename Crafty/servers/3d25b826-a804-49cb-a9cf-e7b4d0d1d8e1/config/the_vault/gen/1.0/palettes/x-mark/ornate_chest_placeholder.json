@@ -1,0 +1,70 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "ORNATE_CHEST",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.08,
+          "success": {
+            "the_vault:ornate_chest{LootTable:\"the_vault:ornate_chest_lvl0_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 13,
+          "probability": 0.08,
+          "success": {
+            "the_vault:ornate_chest{LootTable:\"the_vault:ornate_chest_lvl13_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 27,
+          "probability": 0.08,
+          "success": {
+            "the_vault:ornate_chest{LootTable:\"the_vault:ornate_chest_lvl27_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 39,
+          "probability": 0.08,
+          "success": {
+            "the_vault:ornate_chest{LootTable:\"the_vault:ornate_chest_lvl39_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 50,
+          "probability": 0.08,
+          "success": {
+            "the_vault:ornate_chest{LootTable:\"the_vault:ornate_chest_lvl50_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 65,
+          "probability": 0.08,
+          "success": {
+            "the_vault:ornate_chest{LootTable:\"the_vault:ornate_chest_lvl65_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

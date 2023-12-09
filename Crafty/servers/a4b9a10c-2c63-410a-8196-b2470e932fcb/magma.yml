@@ -1,0 +1,47 @@
+# This is the main configuration file for Magma.
+#
+# Site: https://magmafoundation.org
+# Discord: https://discord.gg/magma
+#
+# Value: patch.force-randomized-uuid-for-dimensions Default: false   # Forces the server to use randomized UUIDs for dimensions, this will make bukkit recognize dimensions as different worlds. THIS WILL BREAK EXISTING WORLDS, USE AT YOUR OWN RISK!!!
+# Value: magma.command.mods.print-ids Default: true   # Adds the mod id + version to the end of the mod name
+# Value: forge.max-packet-size Default: 8388608   # Maximum packet size allowed, Minimum+Default: 8388608 (8MB). Smaller Values will not give an error, but will also not have any effect.
+# Value: fakeplayer.permissions Default:    # A list of permissions that fake players should have
+# Value: debug.dispatcher-redirector.override Default: false   # Bypasses/Overrides/Skips org.magmafoundation.magma.commands.DispatcherRedirector.shouldBypass(). This may break some things, but may occasionally be helpful for debugging or tps. (see https://git.magmafoundation.org/magmafoundation/Magma-1-18-x/-/blob/1.18.x/src/main/java/org/magmafoundation/magma/commands/DispatcherRedirector.java?ref_type=heads)
+# Value: debug.deobfuscate-stacktraces Default: true   # Deobfuscates stacktraces to make them more readable
+# Value: forge.commandsIgnoreBukkitPerms Default: true   # If true, forge/modded commands will ignore Bukkit permission plugins and use Forge permissions instead, disable this to control forge commands with permission plugins like LuckPerms
+# Value: patch.update-suppression.enable Default: true   # Changes the way that blocks update their neighbours, this fixes update suppression crashes
+# Value: patch.update-suppression.max-updates Default: 1000000   # The maximum number of chained updates that can occur before skipping the rest
+# Value: debug.warn-on-null-nbt Default: false   # Prints a warning when an item tries to set an NBT tag to null
+# Value: magma.auto-update Default: true   # Auto updates the Magma jar
+# Value: debug.print-bukkit-injections Default: false   # Prints Forge Bukkit Injections
+# Value: debug.warn-on-unknown-entity Default: false   # Prints a warning when an entity unknown to bukkit is spawned
+# Value: forge.packet-compression-threshold Default: 8388608   # Maximum packet size before compression is applied, Minimum+Default: 8388608 (8MB). Smaller Values will not give an error, but will also not have any effect.
+# Value: forge.bukkitPermissionHandler.enable Default: true   # Let's Bukkit permission plugins handle forge/modded commands
+
+patch:
+  force-randomized-uuid-for-dimensions: false
+  update-suppression:
+    enable: true
+    max-updates: 1000000
+magma:
+  command:
+    mods:
+      print-ids: true
+  auto-update: true
+forge:
+  max-packet-size: 8388608
+  commandsIgnoreBukkitPerms: true
+  packet-compression-threshold: 8388608
+  bukkitPermissionHandler:
+    enable: true
+fakeplayer:
+  permissions: []
+debug:
+  dispatcher-redirector:
+    override: false
+  deobfuscate-stacktraces: true
+  warn-on-null-nbt: false
+  print-bukkit-injections: false
+  warn-on-unknown-entity: false
+config-version: 1

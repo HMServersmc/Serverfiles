@@ -1,0 +1,17 @@
+EXECUTE %/execute as ${streamer} run vhsmp twitchspawn raffle_ticket ${actor}%
+ ON Twitch Channel Point Reward
+ WITH title IS %Raffle Ticket%
+
+EXECUTE %/execute as ${streamer} run vhsmp twitchspawn received_bit_donation ${actor} ${amount_i}%
+ ON Twitch Bits
+ WITH amount >= 100
+
+EXECUTE %/execute as ${streamer} run vhsmp twitchspawn received_sub ${actor} ${months} ${tier}%
+ ON Twitch Subscription
+ 
+EXECUTE %/execute as ${streamer} run vhsmp twitchspawn received_donation ${actor} ${amount_i}%
+ ON Donation
+ WITH amount >= 1
+
+EXECUTE %/execute as ${streamer} run vhsmp twitchspawn received_sub_gift ${actor} ${amount_i} ${tier}%
+ ON Twitch Subscription Gift

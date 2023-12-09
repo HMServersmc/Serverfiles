@@ -1,0 +1,464 @@
+{
+  "keys": [
+    {
+      "id": "the_vault:test_table",
+      "name": "Test",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/test_table.json"
+    },
+    {
+      "id": "the_vault:ancient_copper_golem",
+      "name": "Ancient Copper Golem",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ancient_copper_golem.json"
+    },
+    {
+      "id": "the_vault:ancient_copper_golem_exposed",
+      "name": "Ancient Copper Golem Exposed",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ancient_copper_golem_exposed.json"
+    },
+    {
+      "id": "the_vault:ancient_copper_golem_weathered",
+      "name": "Ancient Copper Golem Weathered",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ancient_copper_golem_weathered.json"
+    },
+    {
+      "id": "the_vault:ancient_copper_golem_oxidized",
+      "name": "Ancient Copper Golem Oxidized",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ancient_copper_golem_oxidized.json"
+    },
+    {
+      "id": "the_vault:coin_pile_lvl0",
+      "name": "Coin Pile Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/coin_pile_0.json"
+    },
+    {
+      "id": "the_vault:coin_pile_lvl30",
+      "name": "Coin Pile Level 30",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/coin_pile_30.json"
+    },
+    {
+      "id": "the_vault:treasure_sand_lvl0",
+      "name": "Treasure Sand Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_sand_0.json"
+    },
+    {
+      "id": "the_vault:cube_block_lvl0",
+      "name": "Cube Block Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/cube_block_0.json"
+    },
+    {
+      "id": "the_vault:completion_crate_lvl0",
+      "name": "Completion Crate Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_crate_0.json"
+    },
+    {
+      "id": "the_vault:completion_crate_monolith",
+      "name": "Completion Crate Monolith",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_crate_monolith.json"
+    },
+    {
+      "id": "the_vault:completion_crate_lvl20",
+      "name": "Completion Crate Level 20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_crate_20.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_raw",
+      "name": "Wooden Chest Raw",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_raw.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_raw",
+      "name": "Gilded Chest Raw",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_raw.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_raw",
+      "name": "Ornate Chest Raw",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_raw.json"
+    },
+    {
+      "id": "the_vault:living_chest_raw",
+      "name": "Living Chest Raw",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_raw.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl0_v2",
+      "name": "Living Chest Lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_0_v2.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl14_v2",
+      "name": "Living Chest Lvl14",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_14_v2.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl21_v2",
+      "name": "Living Chest Lvl21",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_21_v2.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl30_v2",
+      "name": "Living Chest Lvl30",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_30_v2.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl41_v2",
+      "name": "Living Chest Lvl41",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_41_v2.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl54_v2",
+      "name": "Living Chest Lvl54",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_54_v2.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl75_v2",
+      "name": "Living Chest Lvl75",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_75_v2.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_lvl0_v2",
+      "name": "Gilded Chest Lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_0_v2.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_lvl11_v2",
+      "name": "Gilded Chest Lvl11",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_11_v2.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_lvl24_v2",
+      "name": "Gilded Chest Lvl24",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_24_v2.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_lvl35_v2",
+      "name": "Gilded Chest Lvl35",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_35_v2.json"
+    },
+    {
+      "id": "the_vault:gilded_strongbox_lvl50_v2",
+      "name": "Gilded Strongbox Lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_strongbox_50_v2.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_lvl0_v2",
+      "name": "Wooden Chest Lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_0_v2.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_lvl10_v2",
+      "name": "Wooden Chest Lvl10",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_10_v2.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_lvl24_v2",
+      "name": "Wooden Chest Lvl24",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_24_v2.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_lvl30_v2",
+      "name": "Wooden Chest Lvl30",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_30_v2.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl0_v2",
+      "name": "Ornate Chest Lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_0_v2.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl13_v2",
+      "name": "Ornate Chest Lvl13",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_13_v2.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl27_v2",
+      "name": "Ornate Chest Lvl27",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_27_v2.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl39_v2",
+      "name": "Ornate Chest Lvl39",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_39_v2.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl50_v2",
+      "name": "Ornate Chest Lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_50_v2.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl65_v2",
+      "name": "Ornate Chest Lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_65_v2.json"
+    },
+    {
+      "id": "the_vault:ornate_strongbox_lvl50_v2",
+      "name": "Ornate Chest Lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_strongbox_50_v2.json"
+    },
+    {
+      "id": "the_vault:ornate_strongbox_lvl65_v2",
+      "name": "Ornate Chest Lvl65",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_strongbox_65_v2.json"
+    },
+    {
+      "id": "the_vault:altar_chest_lvl0_v2",
+      "name": "Altar Chest Lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/altar_chest_0_v2.json"
+    },
+    {
+      "id": "the_vault:altar_chest_lvl20_v2",
+      "name": "Altar Chest Lvl20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/altar_chest_20_v2.json"
+    },
+    {
+      "id": "the_vault:treasure_chest_lvl0",
+      "name": "Treasure Chest Lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_chest_0.json"
+    },
+    {
+      "id": "the_vault:treasure_chest_lvl50",
+      "name": "Treasure Chest Lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_chest_50.json"
+    },
+    {
+      "id": "the_vault:completion_lvl0",
+      "name": "Completion Crate lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_lvl0.json"
+    },
+    {
+      "id": "the_vault:completion_lvl27",
+      "name": "Completion Crate lvl27",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_lvl27.json"
+    },
+    {
+      "id": "the_vault:completion_scav_lvl0",
+      "name": "Scav Crate lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_scav_lvl0.json"
+    },
+    {
+      "id": "the_vault:completion_scav_lvl20",
+      "name": "Scav Crate lvl20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_scav_lvl20.json"
+    },
+    {
+      "id": "the_vault:completion_kill_lvl0",
+      "name": "Kill Crate lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_kill_lvl0.json"
+    },
+    {
+      "id": "the_vault:completion_kill_lvl20",
+      "name": "Kill Crate lvl20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_kill_lvl20.json"
+    },
+    {
+      "id": "the_vault:completion_elix_lvl0",
+      "name": "Elixir Crate lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_elix_lvl0.json"
+    },
+    {
+      "id": "the_vault:completion_elix_lvl20",
+      "name": "Elixir Crate lvl20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_elix_lvl20.json"
+    },
+    {
+      "id": "the_vault:completion_mono_lvl0",
+      "name": "Monolith Crate lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_mono_lvl0.json"
+    },
+    {
+      "id": "the_vault:completion_mono_lvl20",
+      "name": "Monolith Crate lvl20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_mono_lvl20.json"
+    },
+    {
+      "id": "the_vault:living_strongbox_lvl50_v2",
+      "name": "Living Chest Lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_strongbox_50_v2.json"
+    },
+    {
+      "id": "the_vault:living_strongbox_lvl54_v2",
+      "name": "Living Chest Lvl54",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_strongbox_54_v2.json"
+    },
+    {
+      "id": "the_vault:living_strongbox_lvl75_v2",
+      "name": "Living Chest Lvl75",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_strongbox_75_v2.json"
+    },
+    {
+      "id": "the_vault:digsite_sand_lvl0",
+      "name": "Digsite Sand Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/digsite_sand_0.json"
+    },
+    {
+      "id": "the_vault:champion_loot_lvl0",
+      "name": "Champion Loot Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/champion_loot_lvl0.json"
+    },
+    {
+      "id": "the_vault:champion_loot_lvl20",
+      "name": "Champion Loot Level 20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/champion_loot_lvl20.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl0_v3",
+      "name": "Living Chest lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_0_v3.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl10_v3",
+      "name": "Living Chest lvl10",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_10_v3.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl20_v3",
+      "name": "Living Chest lvl20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_20_v3.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl30_v3",
+      "name": "Living Chest lvl30",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_30_v3.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl40_v3",
+      "name": "Living Chest lvl40",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_40_v3.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl50_v3",
+      "name": "Living Chest lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_50_v3.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl60_v3",
+      "name": "Living Chest lvl60",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_60_v3.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl70_v3",
+      "name": "Living Chest lvl70",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_70_v3.json"
+    },
+    {
+      "id": "the_vault:living_strongbox_lvl50_v3",
+      "name": "Living Strongbox lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_strongbox_50_v3.json"
+    },
+    {
+      "id": "the_vault:living_strongbox_lvl70_v3",
+      "name": "Living Strongbox lvl70",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_strongbox_70_v3.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_lvl0_v3",
+      "name": "Gilded Chest lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_0_v3.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_lvl20_v3",
+      "name": "Gilded Chest lvl20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_20_v3.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_lvl50_v3",
+      "name": "Gilded Chest lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_50_v3.json"
+    },
+    {
+      "id": "the_vault:gilded_strongbox_lvl50_v3",
+      "name": "Gilded Strongbox lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_strongbox_50_v3.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl0_v3",
+      "name": "Ornate Chest lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_0_v3.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl20_v3",
+      "name": "Ornate Chest lvl20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_20_v3.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl30_v3",
+      "name": "Ornate Chest lvl30",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_30_v3.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl50_v3",
+      "name": "Ornate Chest lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_50_v3.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl65_v3",
+      "name": "Ornate Chest lvl65",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_65_v3.json"
+    },
+    {
+      "id": "the_vault:ornate_strongbox_lvl50_v3",
+      "name": "Ornate Strongbox lvl50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_strongbox_50_v3.json"
+    },
+    {
+      "id": "the_vault:ornate_strongbox_lvl65_v3",
+      "name": "Ornate Strongbox lvl65",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_strongbox_65_v3.json"
+    },
+    {
+      "id": "the_vault:hardened_chest_lvl0",
+      "name": "Hardened Chest lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/hardened_chest_0.json"
+    },
+    {
+      "id": "the_vault:flesh_chest_lvl0",
+      "name": "Flesh Chest lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/flesh_chest_0.json"
+    },
+    {
+      "id": "the_vault:enigma_chest_lvl0",
+      "name": "Enigma Chest lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/enigma_chest_0.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_lvl0_v3",
+      "name": "Wooden Chest lvl0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_0_v3.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_lvl20_v3",
+      "name": "Wooden Chest lvl20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_20_v3.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_lvl30_v3",
+      "name": "Wooden Chest lvl30",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_30_v3.json"
+    },
+    {
+      "id": "the_vault:boss_ornate",
+      "name": "Herald's Ornate",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/boss_ornate.json"
+    },
+    {
+      "id": "the_vault:boss_wooden",
+      "name": "Herald's Wooden",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/boss_wooden.json"
+    },
+    {
+      "id": "the_vault:boss_living",
+      "name": "Herald's Living",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/boss_living.json"
+    },
+    {
+      "id": "the_vault:boss_gilded",
+      "name": "Herald's Gilded",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/boss_gilded.json"
+    },
+    {
+      "id": "the_vault:completion_paradox",
+      "name": "Paradox Crate",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_paradox.json"
+    }
+  ]
+}

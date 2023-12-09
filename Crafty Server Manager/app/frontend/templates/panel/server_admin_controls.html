@@ -1,0 +1,109 @@
+{% extends ../base.html %}
+
+{% block meta %}
+{% end %}
+
+{% block title %}Crafty Controller - {{ translate('serverDetails', 'serverDetails', data['lang']) }}{% end %}
+
+{% block content %}
+
+<div class="content-wrapper">
+
+  <!-- Page Title Header Starts-->
+  <div class="row page-title-header">
+    <div class="col-12">
+      <div class="page-header">
+        <h4 class="page-title">
+          {{ translate('serverDetails', 'serverDetails', data['lang']) }} - {{
+          data['server_stats']['server_id']['server_name'] }}
+          <br />
+          <small>UUID: {{ data['server_stats']['server_id']['server_uuid'] }}</small>
+        </h4>
+      </div>
+    </div>
+
+  </div>
+  <!-- Page Title Header Ends-->
+
+  {% include "parts/details_stats.html %}
+
+  <div class="row">
+
+    <div class="col-sm-12 grid-margin">
+      <div class="card">
+        <div class="card-body  pt-0">
+          <span class="d-none d-sm-block">
+            {% include "parts/server_controls_list.html %}
+          </span>
+          <span class="d-block d-sm-none">
+            {% include "parts/m_server_controls_list.html %}
+          </span>
+
+          <div class="row">
+            {% include "parts/server_players.html %}
+          </div>
+
+          <hr />
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+<!-- content-wrapper ends -->
+
+{% end %}
+
+{% block js %}
+<script>
+  const serverId = new URLSearchParams(document.location.search).get('id')
+
+  //used to get cookies from browser - this is part of tornados xsrf protection - it's for extra security
+  function getCookie(name) {
+    var r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
+    return r ? r[1] : undefined;
+  }
+
+  function htmlDecode(input) {
+    var e = document.createElement('textarea');
+    e.innerHTML = input;
+    // handle case of empty input
+    return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+  }
+
+  $(document).ready(function () {
+    console.log("ready!");
+
+    var bannedPlayers = `{{ data['banned_players_html'] }}`;
+
+    var bannedPlayersDecoded = htmlDecode(bannedPlayers);
+
+    $("#bannedPlayers").html(bannedPlayersDecoded)
+
+  });
+
+  async function send_command_to_server(command) {
+    console.log(command)
+    const token = getCookie("_xsrf")
+    console.log('sending command: ' + command)
+
+    let res = await fetch(`/api/v2/servers/${serverId}/stdin`, {
+      method: 'POST',
+      headers: {
+        'X-XSRFToken': token
+      },
+      body: command,
+    });
+
+    let responseData = await res.text();
+    console.log("got response:");
+    console.log(responseData);
+  }
+
+
+</script>
+
+{% end %}

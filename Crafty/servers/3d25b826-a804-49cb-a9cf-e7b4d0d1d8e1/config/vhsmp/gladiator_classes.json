@@ -1,0 +1,302 @@
+{
+  "gladiatorClasses": {
+    "warrior": {
+      "attributeOverrides": [
+        {
+          "NAME": "the_vault:generic.crit_chance",
+          "MIN": 0.1,
+          "MAX": 0.1,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 0.8,
+          "SCALE_PER_LEVEL": 0.05,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "the_vault:generic.crit_multiplier",
+          "MIN": 2.0,
+          "MAX": 2.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 0.8,
+          "SCALE_PER_LEVEL": 0.0,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.attack_damage",
+          "MIN": 2.0,
+          "MAX": 5.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.05,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.max_health",
+          "MIN": 120.0,
+          "MAX": 180.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.05,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.movement_speed",
+          "MIN": 0.23,
+          "MAX": 0.26,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.001,
+          "SCALE_MAX_LEVEL": -1
+        }
+      ],
+      "mainHandItems": [
+        {
+          "item": "minecraft:diamond_sword",
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "minecraft:netherite_sword",
+          "nbt": "{Damage:0}"
+        }
+      ],
+      "mainHandGear": [],
+      "offHandGear": [],
+      "gearChances": {
+        "CHEST": 1.0,
+        "LEGS": 0.5,
+        "FEET": 0.5
+      }
+    },
+    "berserker": {
+      "attributeOverrides": [
+        {
+          "NAME": "the_vault:generic.crit_chance",
+          "MIN": 0.2,
+          "MAX": 0.2,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 0.8,
+          "SCALE_PER_LEVEL": 0.0,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "the_vault:generic.crit_multiplier",
+          "MIN": 2.0,
+          "MAX": 2.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 0.8,
+          "SCALE_PER_LEVEL": 0.0,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.attack_damage",
+          "MIN": 2.0,
+          "MAX": 5.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.05,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.attack_speed",
+          "MIN": 1.0,
+          "MAX": 1.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.0,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.max_health",
+          "MIN": 60.0,
+          "MAX": 120.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.05,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.movement_speed",
+          "MIN": 0.35,
+          "MAX": 0.42,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.001,
+          "SCALE_MAX_LEVEL": -1
+        }
+      ],
+      "mainHandGear": [],
+      "offHandGear": [],
+      "mainHandItems": [
+      ],
+      "offHandItems": [
+      ],
+      "gearChances": {
+        "CHEST": 1.0,
+        "LEGS": 0.5,
+        "FEET": 0.5
+      }
+    },
+    "archer": {
+      "attributeOverrides": [
+        {
+          "NAME": "the_vault:generic.crit_chance",
+          "MIN": 0.0,
+          "MAX": 0.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 0.8,
+          "SCALE_PER_LEVEL": 0.0,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "the_vault:generic.crit_multiplier",
+          "MIN": 0.0,
+          "MAX": 0.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 0.8,
+          "SCALE_PER_LEVEL": 0.0,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.attack_damage",
+          "MIN": 1.0,
+          "MAX": 2.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.08,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.max_health",
+          "MIN": 60.0,
+          "MAX": 80.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.05,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.movement_speed",
+          "MIN": 0.25,
+          "MAX": 0.28,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.001,
+          "SCALE_MAX_LEVEL": -1
+        }
+      ],
+      "mainHandGear": [],
+      "offHandGear": [],
+      "mainHandItems": [
+        {
+          "item": "minecraft:bow",
+          "nbt": "{Damage:0}"
+        }
+      ],
+      "gearChances": {
+        "CHEST": 0.0,
+        "LEGS": 0.5,
+        "FEET": 0.5,
+        "HEAD": 1.0
+      }
+    },
+    "tank": {
+      "attributeOverrides": [
+        {
+          "NAME": "the_vault:generic.crit_chance",
+          "MIN": 0.0,
+          "MAX": 0.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 0.8,
+          "SCALE_PER_LEVEL": 0.05,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "the_vault:generic.crit_multiplier",
+          "MIN": 0.0,
+          "MAX": 0.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 0.8,
+          "SCALE_PER_LEVEL": 0.1,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.attack_damage",
+          "MIN": 1.0,
+          "MAX": 3.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.05,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.max_health",
+          "MIN": 140.0,
+          "MAX": 260.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.08,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.movement_speed",
+          "MIN": 0.2,
+          "MAX": 0.2,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.0,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.armor",
+          "MIN": 6.0,
+          "MAX": 16.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.05,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.armor",
+          "MIN": 6.0,
+          "MAX": 16.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.05,
+          "SCALE_MAX_LEVEL": -1
+        },
+        {
+          "NAME": "minecraft:generic.knockback_resistance",
+          "MIN": 1000.0,
+          "MAX": 1000.0,
+          "OPERATOR": "set",
+          "ROLL_CHANCE": 1.0,
+          "SCALE_PER_LEVEL": 0.00,
+          "SCALE_MAX_LEVEL": -1
+        }
+      ],
+      "mainHandGear": [],
+      "offHandGear": [],
+      "mainHandItems": [
+        {
+          "item": "minecraft:diamond_axe",
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "nbt": "{Damage:0}"
+        }
+      ],
+      "offHandItems": [
+        {
+          "item": "minecraft:shield"
+        }
+      ],
+      "gearChances": {
+        "HEAD": 0.0,
+        "MAINHAND": 0.0,
+        "CHEST": 1.0,
+        "LEGS": 0.5,
+        "FEET": 0.5
+      }
+    }
+  }
+}

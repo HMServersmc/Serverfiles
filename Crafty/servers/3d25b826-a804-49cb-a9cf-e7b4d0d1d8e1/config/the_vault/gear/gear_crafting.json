@@ -1,0 +1,67 @@
+{
+  "defaultCraftedPool": "Scrappy",
+  "legendaryModifierChance": 0.03,
+  "potentialUsedPerCraft": {
+    "min": 0,
+    "max": 8
+  },
+  "potentialIncreasePerLevel": 0.015,
+  "potentialRanges": {
+    "SCRAPPY": {
+      "min": 30,
+      "max": 50
+    },
+    "COMMON": {
+      "min": 50,
+      "max": 70
+    },
+    "RARE": {
+      "min": 70,
+      "max": 90
+    },
+    "EPIC": {
+      "min": 90,
+      "max": 115
+    },
+    "OMEGA": {
+      "min": 115,
+      "max": 140
+    }
+  },
+  "totalMaximumProficiency": 2147483647,
+  "totalCategoryProficiency": 5000,
+  "proficiencyPerCraft": {
+    "min": 5,
+    "max": 10
+  },
+  "proficiencyPools": [
+    {
+      "minProficiency": 0,
+      "pool": "Beginner"
+    },
+    {
+      "minProficiency": 100,
+      "pool": "Novice"
+    },
+    {
+      "minProficiency": 400,
+      "pool": "Maker"
+    },
+    {
+      "minProficiency": 800,
+      "pool": "Apprentice"
+    },
+    {
+      "minProficiency": 2000,
+      "pool": "Smith"
+    },
+    {
+      "minProficiency": 3600,
+      "pool": "Artisan"
+    },
+    {
+      "minProficiency": 4800,
+      "pool": "Master Artisan"
+    }
+  ]
+}

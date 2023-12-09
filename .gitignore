@@ -1,0 +1,24 @@
+/Crafty Server Manager/backups
+/Crafty Server Manager/import
+/Crafty Server Manager/imports
+/Crafty Server Manager/logs
+/ngrok-crafty
+*.log
+*.mca
+/Crafty/servers/755ed1da-bd2b-46bb-bed6-c36a48671561/config/mcdiscordchat.json
+/Crafty/servers/755ed1da-bd2b-46bb-bed6-c36a48671561/config/mcdiscordchat-backup.json
+/Crafty/servers/675948de-a734-4c2e-9148-efcb92f0e96a/config/mcdiscordchat.json
+/Crafty/servers/675948de-a734-4c2e-9148-efcb92f0e96a/config/mcdiscordchat-backup.json
+*.log.gz
+/Crafty/servers/964d0be7-3b79-408d-9827-4e6691fe3070/world
+/Crafty/servers/41299f39-612b-47da-8719-3e592528a186/world
+/Crafty/servers/755ed1da-bd2b-46bb-bed6-c36a48671561/world
+/Crafty/servers/7c7f5f3f-06df-43ed-af15-7102d1f2a027/world
+/Crafty/servers/a4b9a10c-2c63-410a-8196-b2470e932fcb/world
+/Crafty/servers/cd7b3ae4-630c-451f-93e9-8587a56fafae/world
+/Crafty/servers/be8373d6-2430-4903-bd99-4dd5fd89fc4f/world
+/Crafty/servers/6f8c6e42-1e31-471b-8e7a-863eba150718/world
+/Crafty/servers/3e252973-7aab-4793-b6b7-13e2cb0c7ab2/world
+/Crafty/servers/675948de-a734-4c2e-9148-efcb92f0e96a/world
+/Crafty/servers/3d25b826-a804-49cb-a9cf-e7b4d0d1d8e1/world
+/Crafty/servers/a4b9a10c-2c63-410a-8196-b2470e932fcb/backups

@@ -1,0 +1,118 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 2023-08-25 16:20:06
+Description: Exception in server tick loop
+
+java.lang.OutOfMemoryError: unable to create native thread: possibly out of memory or process/resource limits reached
+	at java.base/java.lang.Thread.start0(Native Method)
+	at java.base/java.lang.Thread.start(Thread.java:802)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:945)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1364)
+	at net.minecraft.class_3846.method_16908(class_3846.java:131)
+	at net.minecraft.class_3846.method_16901(class_3846.java:124)
+	at net.minecraft.class_3906.method_27918(class_3906.java:31)
+	at net.minecraft.class_4698.method_23709(class_4698.java:234)
+	at net.minecraft.class_4698.method_23703(class_4698.java:172)
+	at net.minecraft.class_5565.method_31760(class_5565.java:116)
+	at net.minecraft.class_5579.method_31812(class_5579.java:299)
+	at net.minecraft.class_5579.method_31846(class_5579.java:380)
+	at it.unimi.dsi.fastutil.longs.LongOpenHashSet.forEach(LongOpenHashSet.java:756)
+	at it.unimi.dsi.fastutil.longs.LongIterable.forEach(LongIterable.java:146)
+	at it.unimi.dsi.fastutil.longs.AbstractLongCollection.forEach(AbstractLongCollection.java:149)
+	at net.minecraft.class_5579.method_31829(class_5579.java:374)
+	at net.minecraft.class_3218.method_14176(class_3218.java:794)
+	at net.minecraft.server.MinecraftServer.method_3723(MinecraftServer.java:536)
+	at net.minecraft.server.MinecraftServer.method_39218(MinecraftServer.java:560)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:834)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 18.0.2.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 196755256 bytes (187 MiB) / 1069547520 bytes (1020 MiB) up to 2097152000 bytes (2000 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 PRO 3600 6-Core Processor          
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Virtual memory max (MB): 65467.07
+	Virtual memory used (MB): 65464.75
+	Swap memory total (MB): 49152.00
+	Swap memory used (MB): 65.04
+	JVM Flags: 2 total; -Xms1000M -Xmx2000M
+	Fabric Mods: 
+		fabric-api: Fabric API 0.86.1+1.20.1
+			fabric-api-base: Fabric API Base 0.4.30+7abfd51577
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.35+4d8536c977
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.10+b3afc78b77
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.9+e022e5d177
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.33+f71b366f77
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.12+b3afc78b77
+			fabric-commands-v0: Fabric Commands (v0) 0.2.50+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.62+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.9+b3afc78b77
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.4+a1a980da77
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.18+aeb40ebe77
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.2.1+1e61dba177
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.52+b3afc78b77
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.22+b3afc78b77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.1+e91849a877
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.62+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.38+b04edc7a77
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.27+b3afc78b77
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.10+23d9108177
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.21+b3afc78b77
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.39+b3afc78b77
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.43+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.7+3265161977
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.49+b3afc78b77
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.9+b3afc78b77
+			fabric-networking-v0: Fabric Networking (v0) 0.3.49+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.1.1+6beca84877
+			fabric-particles-v1: Fabric Particles (v1) 1.1.1+201a23a077
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.19+b3afc78b77
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.3.1+4df89eb277
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.34+b3afc78b77
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.27+b3afc78b77
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.5+ea08f9d877
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.9+132c48c177
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.28+b3afc78b77
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.0+cdf060b277
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.3.0+6c31357e77
+		fabricloader: Fabric Loader 0.14.21
+		fabricproxy-lite: FabricProxy Lite 2.6.0
+			com_moandjiezana_toml_toml4j: toml4j 0.7.2
+		java: Java HotSpot(TM) 64-Bit Server VM 18
+		lithium: Lithium 0.11.2
+		minecraft: Minecraft 1.20.1
+		proxy-command: ProxyCommand 1.0-7
+			michiruf_common_: common 1.0-7
+		starlight: Starlight 1.1.2+fabric.dbc156f
+		viabackwards: ViaBackwards 4.7.0
+		viafabric: ViaFabric 0.4.10+40-main
+			org_yaml_snakeyaml: snakeyaml 2.0
+			viafabric-mc120: ViaFabric for 1.20 0.4.10+40-main
+			viaversion: ViaVersion 4.7.1-SNAPSHOT
+		worldedit: WorldEdit 7.2.15+6463-5ca4dff
+	Server Running: true
+	Player Count: 0 / 20; []
+	Data Packs: vanilla, file/bukkit (incompatible), fabric
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)

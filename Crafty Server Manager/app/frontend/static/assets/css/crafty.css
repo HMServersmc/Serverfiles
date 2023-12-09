@@ -1,0 +1,236 @@
+.select-css option {
+    background-color: var(--deep-bg);
+    color: var(--base-text)
+}
+
+.select-css option:checked {
+    background-color: var(--deep-bg);
+    color: var(--base-text)
+}
+
+nav.sidebar {
+    position: fixed;
+}
+
+
+@media (min-width: 992px) {
+    nav.sidebar {
+        position: fixed;
+        max-height: auto;
+    }
+
+    .main-panel {
+        margin-left: 270px;
+    }
+
+    .sidebar-icon-only .main-panel {
+        margin-left: 70px;
+    }
+}
+
+
+.sidebar>.nav>.nav-item:not(.nav-profile)>.nav-link:before {
+    content: none;
+    position: absolute;
+    left: 30px;
+    right: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    display: block;
+}
+
+.toggle-handle {
+    background-color: white !important;
+}
+
+.toggle-on {
+    color: black !important;
+}
+
+.toggle {
+    height: 0px !important;
+}
+
+.sidebar>.nav>.nav-item:not(.nav-profile)>.nav-link:before {
+    content: none;
+    position: absolute;
+    left: 30px;
+    right: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    display: block;
+}
+
+.sidebar>.nav .nav-item .nav-link,
+.collapsed {
+    padding: 15px 30px;
+}
+
+.mc-log-time {
+    color: var(--success);
+}
+
+.mc-log-info {
+    color: var(--info);
+}
+
+.mc-log-warn {
+    color: var(--warning);
+}
+
+.mc-log-error {
+    color: #af463f;
+}
+
+.mc-log-fatal {
+    color: #da0f00;
+}
+
+.mc-log-keyword {
+    color: var(--primary);
+}
+
+.scrollable-element {
+    scrollbar-color: red yellow;
+}
+
+.term-nav-item {
+    padding: 1%;
+}
+
+/* Fix body scrollbar color */
+body {
+    background-color: var(--dark) !important;
+    /* Firefox */
+}
+
+/* Webkit */
+/* Didn't really work out
+::-webkit-scrollbar { background-color: #202538; }
+::-webkit-scrollbar-button { background-color: #1D212F; }
+::-webkit-scrollbar-thumb { background-color: #777A86; }
+::-webkit-scrollbar-thumb:hover { background-color: #646773; }
+
+::-webkit-scrollbar-track { background-color: #202538; }
+::-webkit-scrollbar-corner { background-color: #202538; }*/
+
+.actions_serverlist>a>i {
+    cursor: pointer;
+}
+
+.actions_serveritem {
+    cursor: pointer;
+}
+
+.corner {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.accordion .card {
+    margin-bottom: 0px;
+}
+
+.bootbox-body {
+    text-align: center;
+}
+
+/**************************************************************/
+/* CSS for Froms Displays */
+/**************************************************************/
+div>.input-group>.custom-file-input {
+    position: relative !important;
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important;
+    width: 1% !important;
+    margin-bottom: 0 !important;
+    border: 1px solid var(--outline);
+}
+
+div>.input-group>.form-control-file {
+    position: relative !important;
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important;
+    width: 1% !important;
+    margin-bottom: 0 !important;
+    border: 1px solid var(--outline);
+}
+
+.custom-picker {
+    border: 1px solid var(--outline);
+}
+
+div>.input-group>.form-control {
+    position: relative !important;
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important;
+    width: 1% !important;
+    margin-bottom: 0 !important;
+    border: 1px solid var(--outline);
+}
+
+.input-group>.input-group-append>button.upload-button {
+    height: calc(1.5em + 0.75rem + 2px);
+}
+
+.no-scroll {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.no-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+    cursor: pointer;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: black !important;
+    background-color: blueviolet !important;
+    border-color: var(--outline) !important;
+}
+
+.custom-control-label::before {
+    background-color: white !important;
+    top: calc(-0.2rem);
+}
+
+.custom-switch .custom-control-label::after {
+    top: calc(-0.125rem + 1px);
+}
+
+/**************************************************************/
+
+/**************************************************************/
+/* CSS for Tables Displays */
+/**************************************************************/
+td>ul {
+    margin: auto;
+}
+
+td p {
+    margin: auto;
+}
+
+td.action {
+    white-space: normal;
+}
+
+td.action .btn {
+    margin-bottom: 0.2rem;
+}
+
+/**************************************************************/

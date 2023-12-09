@@ -1,0 +1,19 @@
+[
+  {
+    "weight": 2,
+    "pool": [
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/village/catacomb_4a"
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/village/catacomb_4b"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+# Do not change this
+config-version = "1.1"
+
+# Message displayed to the player when disconnected from proxy during server switch.
+# Legacy color codes and JSON are accepted.
+disconnect-reset-message = "&6 to join that server please return to server menue and reconnect"
+# How much time the player has to reconnect before canceling the server switch. (In seconds)
+server-switch-cancellation-time = 120
+silence-warnings = false

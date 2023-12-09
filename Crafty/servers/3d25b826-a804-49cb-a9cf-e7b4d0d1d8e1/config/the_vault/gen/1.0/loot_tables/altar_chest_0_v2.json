@@ -1,0 +1,239 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 4,
+        "max": 6
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+              "weight": 12,
+              "item": {
+                "id": "minecraft:bone",
+                "count": {
+                  "type": "uniform",
+                  "min": 3,
+                  "max": 8
+                  }
+              }
+            },
+            {
+              "weight": 20,
+              "item": {
+              "id": "minecraft:rotten_flesh",
+              "count": {
+                "type": "uniform",
+                "min": 3,
+                "max": 8
+                }
+              }
+            },
+            {
+              "weight": 20,
+              "item": {
+              "id": "minecraft:string",
+              "count": {
+                "type": "uniform",
+                "min": 3,
+                "max": 8
+                }
+              }
+            },
+            {
+              "weight": 24,
+              "item": {
+              "id": "minecraft:dead_brain_coral",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 4
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+              "id": "minecraft:gunpowder",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 4
+                }
+              }
+            }                 
+          ]
+        },
+        { "weight": 20,
+          "pool": [
+            {
+              "weight": 10,
+              "item": {
+                "id": "minecraft:cobweb",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 4
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "minecraft:black_candle",
+                "count": {
+                  "type": "uniform",
+                  "min": 2,
+                  "max": 6
+                  }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+                "id": "minecraft:prismarine_shard",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "architects_palette:entwine_rod",
+                "count": {
+                  "type": "uniform",
+                  "min": 4,
+                  "max": 8
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+                "weight": 16,
+                "item": {
+                  "id": "architects_palette:nether_brass_ingot",
+                  "count": {
+                    "type": "uniform",
+                    "min": 4,
+                    "max": 8
+                    }
+                }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "minecraft:ender_eye",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:idol_benevolent",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "altar"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:idol_omniscient",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "altar"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:idol_timekeeper",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "altar"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:idol_malevolence",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "altar"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "minecraft:ender_eye",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:gem_echo",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:soul_flame",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

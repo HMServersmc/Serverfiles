@@ -1,0 +1,12 @@
+{
+  "killCoinsMin": 1,
+  "killCoinsMax": 2,
+  "winCoinsMin": 4,
+  "winCoinsMax": 6,
+  "minCoinSpawnInterval": 200,
+  "maxCoinSpawnInterval": 800,
+  "minCoinsToSpawn": 1,
+  "maxCoinsToSpawn": 3,
+  "coinDespawnTime": 600,
+  "arenaTotalTime": 3600
+}

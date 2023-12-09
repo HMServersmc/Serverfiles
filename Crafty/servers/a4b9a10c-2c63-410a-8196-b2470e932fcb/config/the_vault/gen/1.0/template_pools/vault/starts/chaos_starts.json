@@ -1,0 +1,407 @@
+[
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_beach"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_blank"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_blood_moon"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_cave"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_cave_deepslate"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_cave_geode"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_cave_wasteland"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_deep_mesa"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_desert"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_easter_egg"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_easter_pastel"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_end_void"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_factory_void"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_fairy_ring"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_festive"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_flesh"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_flooded"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_gingerbread"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_haunted"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_ice"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_ice_cave"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_living_cave"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_lush_cave"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_mesa"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_mushroom"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_nether_blackstone"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_nether_crimson"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_nether_soul"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_nether_warped"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_plastic"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_poison"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_raw_cave"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_raw_cave_andersite"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_raw_cave_diorite"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_raw_cave_granite"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_sandy_cave"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_sea_floor"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_shipwreck"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_sweet"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_void"
+      ]
+    }
+  },
+  {
+    "weight": 0,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_white"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_spring_fall"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_spring_spring"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_spring_summer"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:chaos/universal_chaos_spring_winter"
+      ]
+    }
+  }
+]

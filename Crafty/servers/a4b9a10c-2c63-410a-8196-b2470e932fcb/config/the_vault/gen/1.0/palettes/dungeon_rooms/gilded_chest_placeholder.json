@@ -1,0 +1,92 @@
+{
+  "tile_processors": [
+    {
+        "type": "leveled",
+        "levels": [
+            {
+                "level": 0,
+                "type": "weighted_target",
+                "target": "the_vault:placeholder",
+                "output": {
+                    "the_vault:placeholder{ Hidden: 1b }": 1
+                }
+            }
+        ]
+    },
+    {
+      "type": "placeholder",
+      "target": "WOODEN_CHEST",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.6,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl0_v3\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 20,
+          "probability": 0.6,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl20_v3\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 50,
+          "probability": 0.6,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl20_v3\"}": 17,
+            "the_vault:gilded_strongbox{LootTable:\"the_vault:gilded_strongbox_lvl50_v3\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 80,
+          "probability": 0.6,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl20_v3\"}": 9,
+            "the_vault:gilded_strongbox{LootTable:\"the_vault:gilded_strongbox_lvl50_v3\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 100,
+          "probability": 0.6,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl20_v3\"}": 6,
+            "the_vault:gilded_strongbox{LootTable:\"the_vault:gilded_strongbox_lvl50_v3\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "placeholder",
+      "target": "COIN_STACKS",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 1.0,
+          "success": {
+            "minecraft:air": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,776 @@
+{
+  "LEVELS": {
+    "0": {
+      "pool": [
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:skeleton",
+            "amount": {
+              "min": 5,
+              "max": 12
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 5,
+              "max": 12
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 5,
+              "max": 12
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:vault_spider",
+            "amount": {
+              "min": 5,
+              "max": 9
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 8
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 6,
+              "max": 16
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 6,
+              "max": 16
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        }
+      ]
+    },
+    "20": {
+      "pool": [
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:skeleton",
+            "amount": {
+              "min": 10,
+              "max": 16
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:stray",
+            "amount": {
+              "min": 8,
+              "max": 16
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 14,
+              "max": 30
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:husk",
+            "amount": {
+              "min": 10,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:drowned",
+            "amount": {
+              "min": 18,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:overgrown_zombie",
+            "amount": {
+              "min": 18,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:winterwalker",
+            "amount": {
+              "min": 18,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:mushroom",
+            "amount": {
+              "min": 18,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "quark:wraith",
+            "amount": {
+              "min": 5,
+              "max": 15
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 15,
+              "max": 30
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:vault_spider",
+            "amount": {
+              "min": 7,
+              "max": 15
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 8
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:skeleton",
+            "amount": {
+              "min": 10,
+              "max": 20
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 20,
+              "max": 40
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 20,
+              "max": 50
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        }
+      ]
+    },
+    "50": {
+      "pool": [
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:skeleton",
+            "amount": {
+              "min": 16,
+              "max": 30
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:stray",
+            "amount": {
+              "min": 16,
+              "max": 30
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 16,
+              "max": 40
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:husk",
+            "amount": {
+              "min": 16,
+              "max": 40
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:drowned",
+            "amount": {
+              "min": 24,
+              "max": 40
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:overgrown_zombie",
+            "amount": {
+              "min": 24,
+              "max": 40
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:winterwalker",
+            "amount": {
+              "min": 24,
+              "max": 40
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:mushroom",
+            "amount": {
+              "min": 24,
+              "max": 40
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "quark:wraith",
+            "amount": {
+              "min": 16,
+              "max": 30
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 16,
+              "max": 48
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:vault_spider",
+            "amount": {
+              "min": 16,
+              "max": 36
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 15
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:skeleton",
+            "amount": {
+              "min": 24,
+              "max": 50
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 35,
+              "max": 75
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 30,
+              "max": 80
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:wither",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": ["minecraft:overworld"],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:ghast",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": ["minecraft:overworld"],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:elder_guardian",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": ["minecraft:overworld"],
+            "vaultOnly": false
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "65": {
+      "pool": [
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:skeleton",
+            "amount": {
+              "min": 24,
+              "max": 40
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:stray",
+            "amount": {
+              "min": 24,
+              "max": 40
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 40,
+              "max": 60
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:husk",
+            "amount": {
+              "min": 32,
+              "max": 48
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:drowned",
+            "amount": {
+              "min": 32,
+              "max": 48
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:overgrown_zombie",
+            "amount": {
+              "min": 32,
+              "max": 48
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:winterwalker",
+            "amount": {
+              "min": 32,
+              "max": 48
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:mushroom",
+            "amount": {
+              "min": 32,
+              "max": 48
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "quark:wraith",
+            "amount": {
+              "min": 24,
+              "max": 40
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "rewardPool": "common",
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 32,
+              "max": 48
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:vault_spider",
+            "amount": {
+              "min": 16,
+              "max": 36
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 15
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:skeleton",
+            "amount": {
+              "min": 48,
+              "max": 64
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 48,
+              "max": 80
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 40,
+              "max": 80
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:wither",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": ["minecraft:overworld"],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:ghast",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": ["minecraft:overworld"],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "rewardPool": "rare",
+          "value": {
+            "value": "minecraft:elder_guardian",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": ["minecraft:overworld"],
+            "vaultOnly": false
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}
