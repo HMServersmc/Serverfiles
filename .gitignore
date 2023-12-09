@@ -10,6 +10,11 @@
 /Crafty/servers/675948de-a734-4c2e-9148-efcb92f0e96a/config/mcdiscordchat.json
 /Crafty/servers/675948de-a734-4c2e-9148-efcb92f0e96a/config/mcdiscordchat-backup.json
 *.log.gz
+*whitelist.json
+*usercache.json
+*ops.json
+*banned-players.json
+*banned-ips.json
 /Crafty/servers/964d0be7-3b79-408d-9827-4e6691fe3070/world
 /Crafty/servers/41299f39-612b-47da-8719-3e592528a186/world
 /Crafty/servers/755ed1da-bd2b-46bb-bed6-c36a48671561/world
