@@ -52,3 +52,14 @@ Modded_Lobby:
     X: 3
     Y: -60
     Z: 8
+survival:
+  world: world
+  triggerblock: NETHER_PORTAL
+  pos1:
+    X: 13
+    Y: -59
+    Z: 8
+  pos2:
+    X: 13
+    Y: -60
+    Z: 8
