@@ -2,7 +2,7 @@
 config-version = "2.6"
 
 # What port should the proxy be bound to? By default, we'll bind to all addresses on port 25577.
-bind = "0.0.0.0:25577"
+bind = "0.0.0.0:25565"
 
 # What should be the MOTD? This gets displayed when the player adds your server to
 # their server list. Only MiniMessage format is accepted.
@@ -77,8 +77,7 @@ lobby2 = "127.0.0.1:25569"
 Modded_Lobby = "127.0.0.1:25570"
 survival = "127.0.0.1:25567"
 redstone = "127.0.0.1:25568"
-blocky = "127.0.0.1:25571"
-VaultHunters = "127.0.0.1:25572"
+VaultHunters = "127.0.0.1:25571"
 
 
 # In what order we should try servers when a player logs in or is kicked from a server.
@@ -143,7 +142,7 @@ log-player-connections = true
 enabled = false
 
 # If query is enabled, on what port should the query protocol listen on?
-port = 25577
+port = 25565
 
 # This is the map name that is reported to the query services.
 map = "Velocity"
