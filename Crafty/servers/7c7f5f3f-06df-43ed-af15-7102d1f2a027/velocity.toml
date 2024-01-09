@@ -72,17 +72,17 @@ enable-player-address-logging = true
 [servers]
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
-lobby = "127.0.0.1:25566"
-lobby2 = "127.0.0.1:25569"
+Lobby = "127.0.0.1:25566"
+Lobby2 = "127.0.0.1:25569"
 Modded_Lobby = "127.0.0.1:25570"
-survival = "127.0.0.1:25567"
-redstone = "127.0.0.1:25568"
-VaultHunters = "127.0.0.1:25571"
+Survival = "127.0.0.1:25567"
+Redstone = "127.0.0.1:25568"
+Vault_Hunters = "127.0.0.1:25571"
 
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
-    "lobby", "lobby2"
+    "Lobby", "Lobby2"
 ]
 
 [forced-hosts]

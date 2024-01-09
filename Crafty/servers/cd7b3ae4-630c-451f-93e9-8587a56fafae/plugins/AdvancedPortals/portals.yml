@@ -19,7 +19,7 @@
 Survival:
   world: world
   triggerblock: NETHER_PORTAL
-  bungee: survival
+  bungee: Survival
   pos1:
     X: 13
     Y: -59
@@ -28,10 +28,10 @@ Survival:
     X: 13
     Y: -60
     Z: 8
-redstone:
+Redstone:
   world: world
   triggerblock: NETHER_PORTAL
-  bungee: redstone
+  bungee: Redstone
   pos1:
     X: 8
     Y: -59
@@ -43,23 +43,12 @@ redstone:
 Modded_Lobby:
   world: world
   triggerblock: NETHER_PORTAL
-  bungee: Modded_lobby
+  bungee: Modded_Lobby
   pos1:
     X: 3
     Y: -59
     Z: 8
   pos2:
     X: 3
-    Y: -60
-    Z: 8
-survival:
-  world: world
-  triggerblock: NETHER_PORTAL
-  pos1:
-    X: 13
-    Y: -59
-    Z: 8
-  pos2:
-    X: 13
     Y: -60
     Z: 8
